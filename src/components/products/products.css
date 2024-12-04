@@ -8,7 +8,7 @@
 
 .product-head {
     line-height: 1.6;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
     color:  #156181;
     text-align: justify;
@@ -38,7 +38,7 @@
 .classtext{
     line-height: 1.6;
     padding:20px;
-    font-size: 22px;
+    font-size: 16px;
     color: rgb(90, 91, 92);
     text-align: justify;
      transition: background-color 0.3s ease; /* Smooth transition for background color */
@@ -51,13 +51,18 @@
 @media screen and (max-width: 1200px) {
     .product-description-container {
         margin-top: 30px;}
-
-
+        
 }
 @media screen and (max-width: 768px) {
     .product-description-container {
         margin-top: 10px;}
+        .product-head {
+            line-height: 1.6;
+            font-size: 14px;
+            
+        }
 
+        
 
 }
 @media screen and (max-width: 420px) {
