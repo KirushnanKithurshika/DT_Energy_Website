@@ -11,7 +11,7 @@
 .homepage-background {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px auto;
+    grid-template-rows: 180px auto;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -43,7 +43,7 @@
 
 .home-intro {
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 60px;
     grid-row: 2;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@
 
 .intro-text {
 
-    font-size: 108px;
+    font-size: 72px;
     font-weight: bold;
     color: white;
     text-align: left;
@@ -75,8 +75,8 @@
   }
   
   .intro-subtext {
-    font-size: 38px;
-    margin-top: 10px;
+    font-size: 36px;
+    margin-top: 30px;
     color: rgb(255, 255, 255);
     animation-delay: 0.5s;  
     margin-bottom: 20px;
@@ -84,7 +84,7 @@
   
   .intro-button {
     margin-top: 10px;
-    padding: 20px 80px;
+    padding: 10px 30px;
     border-radius: 30px;
     border: #7a7679;
     background: linear-gradient(135deg, #620d5d, #c45c94); 
@@ -92,7 +92,7 @@
     font-weight: bold;
     border: none;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 20px;
     animation-delay: 1s;  
   }
   
@@ -122,24 +122,26 @@
   .intro-button:hover {
     background: linear-gradient(135deg, #afadad, #eb17b2); 
   }
+ 
 
 
 @media (max-width: 1200px) {
 
     .home-intro {
+        margin-top: 0px;
         margin-left: 20px;
         padding: 20px;
-        margin-top: 0px;
+        margin-top: 20px;
 
     }
 
     .intro-text {
-        font-size: 68px;
+        font-size: 55px;
         font-weight: bold;
     }
 
     .intro-subtext {
-        font-size: 32px;
+        font-size: 22px;
         margin-top: 10px;
         color: rgb(255, 255, 255);
     }
@@ -158,7 +160,7 @@
     .homepage-background {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 200px auto;
+        grid-template-rows: 150px auto;
         background-size: cover;
         background-position: center;
         height: 75vh;
@@ -167,27 +169,23 @@
         overflow: hidden;
     }
 }
-
-@media (max-width: 768px) {
-    .homepage-background {
-        height: 50vh;
-        /* Set background to half height on smaller screens */
-        grid-template-rows: 150px auto;
-    }
+@media (max-width: 1000px) {
 
     .home-intro {
-        padding: 20px;
         margin-top: 0px;
-        margin-left: 5px;
+        margin-left: 20px;
+        padding: 10px;
+        margin-top:30px;
+
     }
 
     .intro-text {
-        font-size:38px;
+        font-size: 55px;
         font-weight: bold;
     }
 
     .intro-subtext {
-        font-size: 20px;
+        font-size: 22px;
         margin-top: 10px;
         color: rgb(255, 255, 255);
     }
@@ -195,12 +193,91 @@
     .intro-button {
         margin-top: 20px;
         padding: 10px 20px;
-        background-color:#620d5d;;
+        background-color: #620d5d;;
         /* Green button */
         color: white;
         border: none;
         cursor: pointer;
         font-size: 1rem;
+    }
+}
+    @media (max-width: 900px) {
+
+        .home-intro {
+            margin-top: 0px;
+            margin-left: 20px;
+            padding: 10px;
+            margin-top:10px;
+    
+        }
+    
+        .intro-text {
+            font-size: 55px;
+            font-weight: bold;
+        }
+    
+        .intro-subtext {
+            font-size: 20px;
+            margin-top: 10px;
+            color: rgb(255, 255, 255);
+        }
+    
+        .intro-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #620d5d;;
+            /* Green button */
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+    
+    .homepage-background {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px auto;
+        background-size: cover;
+        background-position: center;
+        height: 75vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+}
+@media (max-width: 768px) {
+    .homepage-background {
+        height: 50vh;
+        /* Set background to half height on smaller screens */
+        grid-template-rows: 100px auto;
+    }
+
+    .home-intro {
+        padding: 20px;
+        margin-top:0px;
+        margin-left: 5px;
+    }
+
+    .intro-text {
+        font-size:28px;
+        font-weight: bold;
+    }
+
+    .intro-subtext {
+        font-size: 16px;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    .intro-button {
+        margin-top: 10px;
+        padding: 5px 10px;
+        background-color:#620d5d;;
+        /* Green button */
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 12px;
     }
 
     .intro-button:hover {
@@ -220,7 +297,7 @@
 
 @media (max-width: 430px) {
     .homepage-background {
-        height: 50vh;
+        height: 40vh;
         /* Set background to half height on smaller screens */
         grid-template-rows: 100px auto;
     }

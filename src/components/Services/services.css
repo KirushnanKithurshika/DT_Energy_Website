@@ -9,7 +9,10 @@
     padding: 20px;
     margin-bottom: 100px;
   }
-  
+  .solution-description{
+    font-size: 14px;
+    color:white;
+  }
   .title {
     grid-area: head;
     color:  #811473;
@@ -36,6 +39,9 @@
     opacity: 0; /* Hides the title on hover */
   }
   .solutions-grid {
+    justify-content: center; /* Centers the grid container itself horizontally */
+  
+  justify-items: center;
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 2 columns */
@@ -43,6 +49,7 @@
   }
   
   .solution-card {
+    max-width: 500px;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
@@ -132,10 +139,30 @@
         margin-top: 60px;
        
       }
+      .solution-description{
+        font-size: 14px;
+      }
       .title {
        
         margin-bottom: 40px;
      
+      }
+      .solution-title {
+        font-size: 16px;
+        
+      }
+
+      .solution-text-button {
+        font-size: 15px;
+        font-weight: bold;
+        background-color:   #811473;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        transition: background-color 0.3s ease;
       }
   }
   
@@ -146,7 +173,7 @@
 
 
     .solution-text-button {
-        font-size: 18px;
+        font-size:15px;
         font-weight: bold;
         background-color: #7a197b;
         color: white;
@@ -159,11 +186,11 @@
       }
 
       .solution-description{
-        font-size: 18px;
+        font-size: 14px;
       }
 
       .solution-title{
-        font-size: 18px;
+        font-size: 16px;
       }
       .solutions-grid {
        
@@ -172,7 +199,7 @@
       }
 
       .solutions-container {
-        margin-top: 50px;
+        margin-top: 30px;
         margin-bottom: 30px;
        
       }

@@ -7,7 +7,7 @@
 }
 
 .projectheading {
-    font-size: 48px;
+    font-size: 46px;
     font-weight: bold;
     color: #811473;
     grid-column: 1 / 4; 
@@ -25,8 +25,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    max-width: 520px;
+    max-width: 400px;
     margin: auto;
     background-color: #ededed;
     border: 2px solid #ddd;
@@ -76,13 +75,13 @@
 }
 
 .details-box h2 {
-    font-size: 1.2em;
+    font-size: 16px;
     margin-bottom: 8px;
     color: #333;
 }
 
 .details-box p {
-    font-size: 0.9em;
+    font-size: 12px;
     margin: 4px 0;
     color: #555;
 }
@@ -93,7 +92,7 @@
 }
 
 .details-box ul li {
-    font-size: 0.9em;
+    font-size: 12px;
     color: #333;
     margin-bottom: 4px;
 }
@@ -106,6 +105,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto; 
         row-gap: 30px;
+        gap: 0px;
         
     }
 
@@ -115,7 +115,7 @@
 
     .project-showcase {
         grid-row: auto;
-        max-width: 600px; 
+        max-width: 400px; 
         grid-column: 1;
     }
 
@@ -145,7 +145,7 @@
 
     .project-showcase {
         grid-row: auto;
-        max-width: 100%;
+        max-width:400px;
         grid-column: 1;
     }
 
@@ -168,7 +168,7 @@
     .projects {
         grid-template-columns: 1fr; 
         grid-template-rows: auto auto auto; 
-        padding:5px;
+        padding:20px;
     }
 
     .projectheading {
@@ -177,7 +177,7 @@
 
     .project-showcase {
         grid-row: auto;
-        max-width:420px;
+        max-width:400px;
         grid-column: 1;
     }
 

@@ -3,7 +3,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  overflow: visible;
   margin-bottom: 100px;}
 
 .partners-grid {
@@ -28,7 +27,7 @@
 .partners-subheading-container {
   position: relative;
   grid-row: 2;
-  padding: 0px 300px;
+  padding: 0px 200px;
 }
 
 .partners-subheading {
@@ -67,33 +66,46 @@
 .first {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 100px;
+  grid-gap: 50px;
   padding: 30px;
   order: 1;
   align-items: center;
   justify-items: center;
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
 .grid-box {
   position: relative;
-  width: 300px;
-  height: 120px;
+  width: 200px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
   background-color: white;
-  box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.1); /* Apply box shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth movement */
+  box-shadow: 10px 8px rgba(249, 246, 246, 0.1); /* Apply box shadow */
+  cursor: pointer;
+  transition: box-shadow 0.2s ease; /* Keep smooth shadow change */
 }
 
 .grid-box:hover {
-  transform: translateY(-5px); /* Moves the box 5px up on hover */
-  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.2); /* Adjust the shadow on hover for a stronger effect */
+  animation: bounce 2s cubic-bezier(0.25, 1.25, 0.5, 1.5); /* Apply bounce animation */
+  box-shadow: 0 10px 20px rgba(12, 124, 136, 0.3); /* Add a shadow for emphasis */
 }
-
-
 
 
 
@@ -116,12 +128,12 @@
   
 
   .first {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 50px;
   }
 
   .grid-box {
-    width: 250px; 
+    width: 200px; 
     height: 100px; 
   }
 }
@@ -159,6 +171,7 @@
   }
 }
 
+
 @media (max-width: 768px) {
   .partners-container {
     margin-top:30px;
@@ -187,8 +200,8 @@
   }
 
   .grid-box {
-    width: 150px;
-    height: 80px;
+    width: 120px;
+    height: 60px;
   }
 }
 
@@ -203,6 +216,7 @@
   }
 
   .partners-heading {
+    padding: 20px;
     font-size: 24px;
   }
 
@@ -216,7 +230,7 @@
   }
 
   .grid-box {
-    width: 150px;
-    height: 80px;
+    width: 120px;
+    height: 60px;
   }
 }

@@ -24,15 +24,15 @@
     color: white;
     z-index: 2;
     /* Keep spans on top */
-    padding: 20px;
+    padding: 30px;
 }
 
 
 .intro-span {
-    font-size: 60px;
+    font-size: 45px;
     font-weight: bold;
-    color: #811473;
-    margin-top: 60px;
+    color:  #811473;
+    margin-top: 20px;
     margin-bottom: 10px;
 
 
@@ -40,8 +40,8 @@
 
 .intro-subspan {
     margin-top: 32px;
-    font-size: 24px;
-    color: #090909;
+    font-size: 22px;
+    color: #4b4b4b;
     font-weight: bold
 }
 
@@ -90,7 +90,7 @@
     font-family: 'Calibri', sans-serif;
     color: #084169;
     font-weight: 550;
-    font-size: 30px;
+    font-size: 20px;
     grid-area: text;
     display: flex;
     padding: 30px;
@@ -105,7 +105,7 @@
     /* Ensures it takes the full height of the container */
 }
 
-@media (max-width: 1600px) {
+/* @media (max-width: 1600px) {
     .introtext {
         font-size: 26px;
         padding: 20px
@@ -118,7 +118,7 @@
     .intro-subspan {
         margin-bottom: 20px;
     }
-}
+} */
 
 @media (max-width: 1200px) {
     .introC-background {
@@ -157,15 +157,15 @@
 
     .intro-span {
         margin-top: 5px;
-        font-size: 28px;
+        font-size: 22px;
         font-weight: bold;
-        color: #661044;
+        color:  #811473;
         margin-bottom: 10px;
     }
 
     .intro-subspan {
         font-size: 22px;
-        color: #090909;
+        color: #4b4b4b;
         font-weight: bold;
     }
 
@@ -184,7 +184,7 @@
     }
 
     .introtext {
-        font-size: 22px;
+        font-size: 20px;
         padding: 40px;
         text-align: justify;
         justify-content: flex-start;
@@ -227,16 +227,17 @@
 
     .intro-span {
         margin-top: 5px;
-        font-size: 30px;
+        margin-bottom: 0px;
+        font-size: 26px;
         font-weight: bold;
-        color: #661044;
+        color: #811473;
         padding: 0 10px;
     }
 
     .intro-subspan {
-        padding: 0px 10px;
-        font-size: 20px;
-        color: #090909;
+        padding: 0px 15px;
+        font-size: 18px;
+        color: #4b4b4b;
         font-weight: bold;
         margin-bottom: 20px;
     }
@@ -251,7 +252,7 @@
     }
 
     .introtext {
-        font-size: 20px;
+        font-size: 18px;
         color: #084169;
         padding: 40px;
         font-weight: 550;
@@ -297,7 +298,7 @@
 
         font-size: 20px;
         font-weight: bold;
-        color: #661044;
+        color:  #811473;
         padding: 0 10px;
     }
 
@@ -305,7 +306,7 @@
         margin-top: 5px;
         padding: 0px 10px;
         font-size: 13px;
-        color: #090909;
+        color: #4b4b4b;
         font-weight: bold;
 
     }
