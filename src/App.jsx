@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 
@@ -11,23 +11,17 @@ import Careers from './pages/Career/career';
 import Contactus from './pages/Contactus/contactus';
 
 function App() {
-  
-
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/DT_Energy_Website">
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/product' element={<Product />} />
         <Route path='/service' element={<Servicepage />} />
         <Route path='/career' element={<Careers />} />
-        <Route path='/contact' element={<Contactus/>}/>
-
+        <Route path='/contact' element={<Contactus />} />
       </Routes>
     </BrowserRouter>
-
-
-
-  )
+  );
 }
 
-export default App
+export default App;
