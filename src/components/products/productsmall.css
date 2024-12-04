@@ -85,7 +85,7 @@
     }
 
     .products-details {
-        grid-template-columns: 1fr; /* Single column layout */
+        grid-template-columns: 1fr;
     }
 
     .products-image {
