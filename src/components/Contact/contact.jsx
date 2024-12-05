@@ -92,7 +92,7 @@ function Contact() {
       </div>
 
       <div className="middle-content">
-        <p className="rights">@2024.Dream Trillions(Pvt)Ltd. All Rights reserved.</p>
+        <p className="rights">@2024-2025.Dream Trillions(Pvt)Ltd. All Rights reserved.</p>
       </div>
     </div>
   );
