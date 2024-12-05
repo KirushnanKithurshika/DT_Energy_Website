@@ -252,7 +252,7 @@
     }
 
     .introtext {
-        font-size: 18px;
+        font-size: 16px;
         color: #084169;
         padding: 40px;
         font-weight: 550;
@@ -263,7 +263,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     .intodt_container {
         margin-top: 10px;
         width: 100%;
@@ -305,7 +305,7 @@
     .intro-subspan {
         margin-top: 5px;
         padding: 0px 10px;
-        font-size: 13px;
+        font-size: 12px;
         color: #4b4b4b;
         font-weight: bold;
 
@@ -321,7 +321,7 @@
     }
 
     .introtext {
-        font-size: 16px;
+        font-size: 14px;
         color: #084169;
         padding: 20px;
         font-weight: 550;
