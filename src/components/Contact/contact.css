@@ -210,8 +210,8 @@ p {
 }
 
 .cta-button {
-  background-color: #c3c306;
-  color: rgb(203, 201, 201);
+  background-color: #0f4b6e;
+  color: rgb(253, 253, 253);
   font-weight: bold;
   padding: 12px 25px;
   font-size: 1rem;
@@ -281,7 +281,7 @@ p {
 
 
   .cta-button {
-    background-color: #c3c306;
+    background-color: #e3e313;
     color: white;
     padding: 12px 25px;
     font-size: 1rem;
@@ -446,7 +446,7 @@ p {
   }
 
   p {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 30px;
   }
 
