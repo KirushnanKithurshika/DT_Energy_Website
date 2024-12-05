@@ -17,7 +17,7 @@
   
   /* Header for job requirements */
   .job-requirements h4 {
-    font-size: 26px;
+    font-size: 24px;
     color: #333;
     margin-bottom: 20px;
   }
@@ -30,7 +30,7 @@
   
   .job-requirements li {
     color: #5f5958;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.8;
     margin-bottom: 10px;
   }
@@ -46,7 +46,7 @@
     color: #fff;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 4px;
     cursor: pointer;
     margin-top: 20px;
@@ -122,8 +122,8 @@
     }
   
     .job-positions-container h2 {
-      font-size: 22px;
-      text-align:justify; /* Center the heading */
+      font-size: 20px;
+      text-align:justify; 
     }
   
     .job-positions-table {
@@ -159,12 +159,12 @@
     }
 
     .job-requirements h4 {
-        font-size: 20px;
+        font-size: 18px;
         
       }
 
     .job-requirements li {
-        font-size: 16px;
+        font-size: 14px;
        
       }
       
@@ -204,7 +204,7 @@
       justify-content:center; /* Align label and value horizontally */
       align-items: center;
       padding: 10px;
-      font-size: 13px; /* Reduce font size for smaller screens */
+      font-size: 12px; /* Reduce font size for smaller screens */
       border: 1px solid #ffffff;
     }
   
@@ -216,6 +216,11 @@
     .job-description-container {
         padding: 20px;
         font-family: Arial, sans-serif;
+      }
+
+      .job-requirements li {
+        font-size: 14px;
+       
       }
   }
   

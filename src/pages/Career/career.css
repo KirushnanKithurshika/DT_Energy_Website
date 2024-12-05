@@ -56,7 +56,7 @@
 
 .career-head{
     line-height: 1.6;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
     color:  #156181;
     text-align: justify;
@@ -70,7 +70,16 @@
     }
 
 }
-
+@media (max-width: 1200px) {
+    .career-background {
+        height: 75vh;
+        grid-template-rows: 150px auto;
+    }
+    .career-head {
+        
+        font-size: 14px;
+        padding: 30px;
+    }}
 @media (max-width: 768px) {
     .career-background {
         height: 50vh;
@@ -78,23 +87,26 @@
     }
     .career-head {
         
-        font-size: 16px;
+        font-size: 14px;
         padding: 30px;
     }
-
+    .careerpageheadsubhead{
+        margin-top: 50px;
+        z-index: 1; 
+    }
     
 
     .careerpage{
         z-index: 2;
         background:blur;
-        font-size: 36px; /* Adjust size as needed */
+        font-size: 24px; /* Adjust size as needed */
         color: rgb(255, 255, 255); /* Ensure visibility */
         font-weight: bold; /* Make it bold */
         text-align: justify;
       }
       .careerpage-subheading{
        
-        font-size: 16px;
+        font-size: 14px;
        
     
     }

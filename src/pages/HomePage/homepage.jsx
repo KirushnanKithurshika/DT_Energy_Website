@@ -36,7 +36,9 @@ function Homepage() {
         <button className="intro-button" onClick={handleScroll}>Learn More</button>
       </div>
     </div>
-    <Introdt/>
+    <div ref={targetRef}>
+      <Introdt />
+    </div>
     <Services/>
     <ProjectShowcase/>
     <Getaquote/>
