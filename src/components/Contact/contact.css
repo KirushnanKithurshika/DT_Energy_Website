@@ -211,7 +211,8 @@ p {
 
 .cta-button {
   background-color: #c3c306;
-  color: white;
+  color: rgb(203, 201, 201);
+  font-weight: bold;
   padding: 12px 25px;
   font-size: 1rem;
   border: none;
