@@ -83,9 +83,9 @@
     .Product {
         z-index: 2;
         background:blur;
-        font-size: 36px; /* Adjust size as needed */
-        color: rgb(255, 255, 255); /* Ensure visibility */
-        font-weight: bold; /* Make it bold */
+        font-size: 36px; 
+        color: rgb(255, 255, 255); 
+        font-weight: bold; 
         text-align: center;
       }
       .product-subheading{
