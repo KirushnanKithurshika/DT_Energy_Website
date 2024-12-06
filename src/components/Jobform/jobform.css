@@ -213,8 +213,7 @@
       .response-message {
           font-size:12px;
           text-align: center;
-          bottom: 20px; /* Align to the bottom */
-         transform: translateX(-50%);
+         
        
       }
   }
