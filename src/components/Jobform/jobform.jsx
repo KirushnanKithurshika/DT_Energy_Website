@@ -57,7 +57,7 @@ function JobApplyForm() {
     );
 
     try {
-      const response = await fetch('http://localhost:8001/send-job-application', {
+      const response = await fetch('https://dt-backend-2257.onrender.com/send-job-application', {
         method: 'POST',
         body: data,
       });
