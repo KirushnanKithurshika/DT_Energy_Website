@@ -14,7 +14,7 @@ function Introdt() {
     <div className="intodt_container">
       <div className="spanC" data-aos="fade-down">
         <span className="intro-span">DT Energy who we are?</span>
-        <span className="intro-subspan">Leading Sri Lanka Towards a Greener Tomorrow with <br>Solar Power</br></span>
+        <span className="intro-subspan">Leading Sri Lanka Towards a Greener Tomorrow with Solar Power</span>
       </div>
       
       <div className="introC" data-aos="fade-up">
