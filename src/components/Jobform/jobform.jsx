@@ -15,6 +15,7 @@ function JobApplyForm() {
   });
 
   const [responseMessage, setResponseMessage] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false); // New state for tracking submission
 
   // Refs for file inputs to reset their state
   const resumeInputRef = useRef(null);
@@ -41,6 +42,7 @@ function JobApplyForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setResponseMessage(''); // Clear any previous messages
+    setIsSubmitting(true);  // Set isSubmitting to true when submitting
 
     // Prepare the form data
     const data = new FormData();
@@ -87,6 +89,8 @@ function JobApplyForm() {
     } catch (error) {
       console.error('Error:', error);
       setResponseMessage('Error submitting application');
+    } finally {
+      setIsSubmitting(false); // Set isSubmitting to false after the response
     }
   };
 
@@ -203,7 +207,7 @@ function JobApplyForm() {
           />
         </div>
 
-        <button type="submit" className="submit-btn">
+        <button type="submit" className="submit-btn" disabled={isSubmitting}>
           <FaPaperPlane /> Submit
         </button>
       </form>
