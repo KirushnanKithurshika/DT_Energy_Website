@@ -160,7 +160,9 @@
   .partners-subheading {
     display: none; 
   }
-
+  .partners-heading {
+    font-size: 28px;
+  }
   .first {
     grid-template-columns: repeat(3, 1fr); 
   }
