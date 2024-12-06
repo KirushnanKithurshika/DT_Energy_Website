@@ -230,7 +230,7 @@ p {
 }
 
 .rights {
-  color: rgb(245, 241, 241);
+  color: rgb(208, 207, 207);
   text-align: center;
   font-size: 16px;
 }
@@ -312,6 +312,13 @@ p {
     grid-template-rows: auto;
     gap: 15px;
  
+
+  }
+
+  .rights {
+    color: rgb(245, 241, 241);
+    text-align: center;
+    font-size: 14px;
   }
   .Authorized-container{
     margin-left: 10px;
@@ -471,5 +478,11 @@ p {
   }
   .white-logocontainer {
     padding: 0px;
+  }
+
+  .rights {
+    color: rgb(245, 241, 241);
+    text-align: center;
+    font-size: 12px;
   }
 }
