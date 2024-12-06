@@ -209,4 +209,8 @@
         cursor: pointer;
         transition: border-color 0.3s ease;
       }
+
+      .response-message {
+          font-size:12px;
+      }
   }
