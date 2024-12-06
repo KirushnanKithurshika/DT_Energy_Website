@@ -53,7 +53,7 @@ const ProjectShowcase = () => {
   return (
     <div className="projects">
       <div className="projectheading" data-aos="fade-up">
-        <span>Solar Projects Bringing Reliable Energy Solutions</span>
+        <span>Our Solar Projects Bringing Reliable Energy Solutions</span>
       </div>
   
       {/* Project 1 */}
