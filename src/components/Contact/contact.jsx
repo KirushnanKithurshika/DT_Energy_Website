@@ -62,7 +62,15 @@ function Contact() {
       <div className="container">
         <h2>Want to be a partner with us?</h2>
         <p>If you're interested in our partnership and would like to find out some more information, one of our advisors is excited to help.</p>
-        <button className="cta-button">Get Started</button>
+        <button
+  className="cta-button"
+  onClick={() => {
+    window.location.href = "mailto:dreamtrillions100@gmail.com?subject=Partnership&body=I am interested in a partnership.";
+  }}
+>
+  Get Started
+</button>
+
       </div>
 
       <div className="white-logocontainer">
