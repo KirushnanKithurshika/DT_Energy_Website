@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './jobform.css';
 import { FaPaperPlane } from 'react-icons/fa';
 
@@ -86,6 +86,7 @@ function JobApplyForm() {
       } else {
         setResponseMessage(result.message || 'Error submitting application');
       }
+      
     } catch (error) {
       console.error('Error:', error);
       setResponseMessage('Error submitting application');
@@ -93,6 +94,14 @@ function JobApplyForm() {
       setIsSubmitting(false); // Set isSubmitting to false after the response
     }
   };
+
+  // Clear response message after 5 seconds
+  useEffect(() => {
+    if (responseMessage) {
+      const timeout = setTimeout(() => setResponseMessage(''), 5000); // Clear message after 5 seconds
+      return () => clearTimeout(timeout); // Cleanup timeout on component unmount
+    }
+  }, [responseMessage]);
 
   return (
     <div className="job-apply-form-container">

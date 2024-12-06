@@ -46,7 +46,7 @@ function Getaquote() {
         email: '',
         message: '',
       });  
-      setTimeout(() => setMessage(''), 2000);
+      setTimeout(() => setMessage(''), 5000);
     } catch (error) {
       console.error('Error sending email:', error);
       setMessage('There was an issue sending your request. Please try again.');  // Error message
