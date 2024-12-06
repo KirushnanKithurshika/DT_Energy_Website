@@ -247,7 +247,13 @@
         border-radius: 20px;
     }
 
-   
+    .form-message {
+       
+        font-size: 14px;
+        
+    
+    }
+      
 
 }
 @media (max-width: 1024px) and (min-width:768px){
@@ -301,7 +307,14 @@
         margin: 30px;
         border-radius: 20px;
     }
-
+    .form-message {
+       
+        font-size: 14px;
+        
+    
+    
+    }
+      
    
 
 }
@@ -378,6 +391,15 @@
     .Cspan{
         display:none;
     }
+
+    .form-message {
+       
+        font-size: 12px;
+        
+    
+    
+    }
+      
 }
 
 @media (max-width: 480px) and (min-width:360px){
@@ -462,5 +484,14 @@
         .Getaquote-container {
             margin:30px;
         }
+
+        .form-message {
+       
+            font-size: 12px;
+            
+        
+        
+        }
+          
 
     }
