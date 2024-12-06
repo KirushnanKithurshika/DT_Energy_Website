@@ -37,7 +37,7 @@ function Getaquote() {
     setMessage('');  // Reset previous message before new submission attempt
 
     try {
-      const response = await axios.post('http://localhost:8001/send-quote', formData);
+      const response = await axios.post('https://dt-backend-2257.onrender.com/send-quote', formData);
       setMessage('Your quote request has been successfully sent!');  // Success message
       setFormData({
         name: '',
