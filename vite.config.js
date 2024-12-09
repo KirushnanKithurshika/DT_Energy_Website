@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base:"/DT_Energy_Website",
+  base:"/DT_Energy_Website/",
 })
